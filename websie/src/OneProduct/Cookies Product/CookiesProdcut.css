@@ -1,0 +1,151 @@
+/*********************************************** Cookies Product css in Single Prodcut page *************************/
+/*********************************************** Cookies prodcut css in Single Product page *************************/
+
+.Similar-Products {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: right;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+.similar {
+  font-size: 24px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 29px;
+  color: rgb(53, 53, 53);
+  text-transform: capitalize;
+  margin-right: 60px;
+}
+
+.Similar-Products a {
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 17px;
+  color: rgb(72, 25, 137);
+  text-transform: capitalize;
+  text-decoration: none;
+  margin-left: 20rem;
+  float: right;
+}
+
+s
+.sliderimage {
+  display: flex;
+}
+.slider12 {
+  display: flex;
+  overflow: auto;
+  margin: 0px 0px;
+}
+
+.slider-content {
+  display: flex;
+}
+
+.slider-1 {
+  transition: transform 0.2s ease;
+  display: flex;
+}
+
+.slider-container button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+
+
+.imga-div-blue-sapphire {
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-left: 35px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.imga-div-blue-sapphire img {
+  width: 190px;
+  height: 190px;
+}
+
+.imga-div-blue-sapphire span {
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  line-height: 19px;
+  text-transform: capitalize;
+}
+
+.imga-div-blue-sapphire p {
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: rgb(72, 25, 137);
+}
+
+
+
+.slick-track {
+  display: flex;
+  overflow: hidden;
+  max-width: 1200;
+}
+
+.slider-container {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 60px 50px;
+  margin-bottom: -30px;
+  position: relative;
+}
+
+
+.slick-prev {
+  opacity: 1;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+  color: red;
+  font-size: 1px;
+  margin-left: 5px;
+  border: none;
+  z-index: 999;
+}
+
+.slick-next {
+  opacity: 1;
+  position: absolute;
+top: 30%;
+margin-right: 5px;
+  position: absolute;
+  right: 0;
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: blue;
+  color: blue;
+  font-size: 1px;
+  border: none;
+}
+
+.slick-dots {
+  opacity: 0;
+}
+

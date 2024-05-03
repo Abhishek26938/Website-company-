@@ -1,0 +1,99 @@
+
+.Offer_main_div{
+    height: 80vh;
+    width: 100%;
+    margin-top: 10px;
+    /* background-color: antiquewhite; */
+    /* line-height: 100px; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.offer_content{
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.offer_h4{
+    color: rgb(35 35 35 );
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    line-height: 24px;
+}
+.offer_h2{
+    font-family: Montserrat, sans-serif;
+    color: rgb(72,25,137);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    line-height: 55px;
+}
+.Reffer_name{
+    margin-top: 50px;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+}
+.Reffer_email{
+    margin-top: 30px;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+}
+.Reffer_Btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 26px;
+    width: 400px;
+    /* border: 1px solid black; */
+}
+.Reffer_via_email{
+    height: 40px;
+    width: 150px;
+    /* margin-right: 200px; */
+    border: none;
+    background-color: rgb(72,25,137);
+    color: #fefefe;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.Reffer_via_email:hover{
+    opacity: 90%;
+    transition: 0.3s;
+}
+.Reffer_on_facebook{
+    height: 40px;
+    width: 55px;
+    background-color: rgb(72,25,137);
+    padding-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.Reffer_on_facebook:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+
+.offer_img{
+    height: 80vh;
+    width: 40vw;
+}
+
+
+.fa-facebook-f{
+    color: #ffffff
+    ;
+}
+
+.fa-x-twitter{
+    color:  #ffffff;
+}
+
+.fa-link{
+    color: #ffffff;
+}

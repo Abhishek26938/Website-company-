@@ -1,0 +1,72 @@
+.div-similar-products-in-single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.div-similar-products-image {
+  width: 200px;
+  height: 190px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.Similar-Products-div-new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+  text-transform: capitalize;
+  line-height: 26px;
+  color: rgb(53, 53, 53);
+  letter-spacing: 1px;
+}
+
+.Petitle-prong-set-round-sinle {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  text-transform: capitalize;
+  line-height: 21px;
+  color: rgb(53, 53, 53);
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.Rbso35-in-new-prodcut-image-code {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+  text-transform: capitalize;
+  line-height: 21px;
+  color: rgb(53, 53, 53);
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.cookes-Product-of-prince {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  text-transform: capitalize;
+  line-height: 26px;
+  color: rgb(72, 25, 137);
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.div-of-auto-cookes-produt {
+  display: flex;
+  margin-left: 30px;
+  position: relative;
+  overflow: auto;
+  gap: 18px;
+  min-width: 1200px;
+  margin-right: 30px;
+}

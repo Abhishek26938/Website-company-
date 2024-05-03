@@ -1,0 +1,204 @@
+/*********************************************** Only About Product css in Prodcut page *************************/
+/*********************************************** Only about prodcut css in Product page *************************/
+
+.product_img_with_price {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin: 30px 15px;
+  text-align: center;
+}
+
+.product_img {
+  display: flex;
+  flex-direction: column;
+  border: 1.5px solid white;
+
+  width: 40vw;
+  height: 58.2vh;
+  padding-top: 15px;
+  align-items: center;
+  position: relative;
+  transition: all linear ease 0.4s;
+}
+
+.product_img:hover .view_details_buton {
+  opacity: 1;
+}
+
+.product_img .fa-star {
+  position: absolute;
+  right: 0;
+  font-size: 18px;
+  padding: 8px;
+  color: rgb(161, 161, 161);
+}
+
+.product_img h4 {
+  margin-top: -2px;
+}
+
+.product_img img {
+  width: 230px;
+  height: 230px;
+}
+
+.product_img:hover {
+  border: 1.5px solid rgb(90, 90, 90);
+}
+
+.view_details_buton {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+}
+
+.view_details_buton:hover {
+  opacity: 1;
+}
+
+.view_details_buton button {
+  width: 13vw;
+  height: 7vh;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+}
+
+.view {
+  color: white;
+  background-color: #481989;
+  border: none;
+  cursor: pointer;
+}
+
+.SOLID {
+  font-size: 24px;
+  transition: all linear ease 0.4s;
+  position: relative;
+}
+
+.SOLID:hover {
+  color: white;
+  background-color: #481989;
+  border: none;
+}
+
+.fa-caret-right {
+  margin-left: 10px;
+}
+
+.SOLID:hover .dropdownlist {
+  display: block;
+}
+
+.dropdownlist {
+  width: 27vw;
+  height: 58.2vh;
+  background-color: white;
+  border-top: 1.5px solid rgb(90, 90, 90);
+  border-bottom: 1.5px solid rgb(90, 90, 90);
+  border-right: 1.5px solid rgb(90, 90, 90);
+  color: black;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  gap: 0px;
+  position: absolute;
+  margin-left: 150px;
+  z-index: 999;
+  margin-top: -20.6rem;
+  top: 0;
+  transition: all ease 0.3s;
+  align-items: center;
+}
+
+.dropdownlist h4 {
+  text-align: center;
+  padding-right: 150px;
+  color: #481989;
+  padding-top: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+}
+
+.deteail {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  border-bottom: 0.7px solid rgb(90, 90, 90);
+  width: 24vw;
+  margin-left: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 12px;
+}
+
+.Cushion {
+  color: #481989;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 20px;
+}
+
+.shap {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 20px;
+  color: rgb(53, 53, 53);
+}
+
+.leftline {
+  width: 27vw;
+  height: 58.2vh;
+  background-color: white;
+  border-top: 1.5px solid rgb(90, 90, 90);
+  border-bottom: 1.5px solid rgb(90, 90, 90);
+  border-left: 1.5px solid rgb(90, 90, 90);
+  border-right: 0px solid red;
+  color: black;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  gap: 0px;
+  position: absolute;
+  margin-left: -500px;
+  z-index: 999;
+  margin-top: -20.6rem;
+  top: 0;
+  transition: all ease 0.3s;
+  align-items: center;
+}
+
+.product_image_the_price {
+  display: flex;
+  gap: 20px;
+  margin: 0px 15px;
+}
+
+.product_images_2 {
+  display: flex;
+  gap: 20px;
+  margin: 0px 15px;
+}
+
+.product-image-white-price5 {
+  display: flex;
+  gap: 20px;
+  margin: 0px 15px;
+}

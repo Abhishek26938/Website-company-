@@ -1,0 +1,127 @@
+
+
+/*********************************************** Review of custumar Jewellery css in home page *************************/
+/*********************************************** Review of custumar jewellery css in home page *************************/
+
+
+.main_background{
+    display: flex;
+    gap: 20px;
+}
+
+.agin_log{
+    height: 80px;
+    width: 90px;
+}
+
+.coustomers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.review_with_img{
+    display: flex;
+    gap: 50px;
+}
+
+
+.image_section_1 img{
+    height: 120px;
+    width: 120px;
+}
+
+.review_with_img{
+    height: 200px;
+    width: 320px;
+    background-color:#ffffff ;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 14px;
+    padding: 11px;
+}
+
+.all_coustumar_review {
+    display: flex;
+    margin-right: 60px;   
+
+}
+
+.coustomers h2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    line-height: 24px;
+    color: rgb(53, 53, 53);
+}
+
+.reviews_rating{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    line-height: 20px;
+    color: rgb(53, 53, 53);
+}
+
+.checked{
+    color: #fb5850;
+}
+
+.star_with_box1 span{
+    color: black;
+}
+.star_with_box4{
+    color: black;
+}
+
+
+.name_cus h4 {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+    line-height: 17px;
+    color: rgb(0,0,0);
+}
+
+.name_cus span{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    line-height: 20px;
+    color: rgb(53,53,53);
+    text-align: left;
+}
+
+.ar_us{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    line-height: 20px;
+    color: rgb(53,53,53);
+}
+
+.main_background{
+    width: 100%;
+    height: 45vh;
+    padding: 40px 30px;
+    background-color: #f5f5f5;
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.star-icon {
+    color: #fb5850; 
+    display: flex;
+    justify-content: center;
+   margin-bottom: 10px;
+    align-items: center;  
+    gap: 3px;
+
+}
+
+

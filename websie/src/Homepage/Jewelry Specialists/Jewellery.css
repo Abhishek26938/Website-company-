@@ -1,0 +1,65 @@
+
+/*********************************************** Consult our Jewellery css in home page *************************/
+/*********************************************** Consult our Jewellery jewellery css in home page *************************/
+
+.Consult_our_jewellery img{
+    height: 83vh;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.consult_juwellery{
+    width: 35vw;
+    height: 60vh;
+    background-color : #fff;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: -470px;
+   
+   
+}
+
+.consult_juwellery{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60PX;
+    gap: 30PX;
+}
+
+
+.consult_juwellery h2{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    line-height: 26px;
+    color: rgb(53,53,53);
+   
+}
+
+.consult_juwellery span{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    line-height: 20px;
+    color: rgb(52,52,52);
+    
+}
+
+
+.consult_juwellery input {
+    height: 43px;
+    width: 20rem; 
+    text-align: center;
+    text-transform: uppercase;
+    font-size:15px; 
+    margin-top: 20px;
+    
+}
+
+.consult_juwellery input:hover{
+    background-color: black;
+    color: white ;
+}

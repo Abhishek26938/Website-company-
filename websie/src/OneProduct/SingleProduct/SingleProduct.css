@@ -1,0 +1,539 @@
+/*********************************************** SingleProdcut  css in Single Product page *************************/
+/*********************************************** SingleProduct  css in Single Product page *************************/
+
+.view-pot {
+    display: flex;
+    align-items: center;
+}
+
+.gemstone-photoes {
+    display: flex;
+    flex-direction: column;
+    align-items: centers;
+    margin: 20px;
+    gap: 10px;
+}
+
+.view-images img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.imgesedd {
+    width: 260px;
+    height: 260px;
+    margin-left: 40px;
+}
+
+.view-images {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(87, 87, 87);
+    position: relative;
+    align-items: center;
+}
+
+.view-images span {
+    width: 100%;
+    position: absolute;
+    height: 20px;
+    bottom: 0;
+    color: wheat;
+    background-color: rgb(72, 25, 137);
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+    text-align: center;
+}
+
+.view-images span {
+    font-size: 10px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+.gia-cetificate2 {
+    display: flex;
+    gap: 70px;
+}
+
+.gia {
+    font-size: 22px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    color: rgb(53, 53, 53);
+    text-transform: uppercase;
+}
+
+.gia-cetificate {
+    margin-left: 20px;
+}
+
+.item {
+    display: flex;
+    gap: 20px;
+    margin: 6px;
+}
+
+.item span {
+    font-size: 13px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    color: rgb(53, 53, 53);
+    text-transform: capitalize;
+    border-right: 1px solid rgb(211, 211, 211);
+    height: 16px;
+    padding-right: 20px;
+}
+
+.item a {
+    font-size: 13px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    color: rgb(72, 25, 137);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.sale-pleace {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.sale-pleace span {
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    line-height: normal;
+    color: rgb(53, 53, 53);
+    text-transform: capitalize;
+    border: 0.1px solid rgb(87, 87, 87);
+    padding: 5px 10px;
+    z-index: 9990;
+    background-color: white;
+}
+
+.price {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    align-items: center;
+}
+
+.includes {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    color: rgb(53, 53, 53);
+}
+
+.price span {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    color: rgb(53, 53, 53);
+}
+
+.price h4 {
+    font-size: 21px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    color: rgb(72, 25, 137);
+}
+
+.price-dive-new {
+    border: 0.1px solid rgb(211, 211, 211);
+    width: 43rem;
+    height: 21vh;
+    margin-top: -19px;
+    display: flex;
+    padding-left: 20px;
+    position: relative;
+}
+
+.div-flex-image {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+.spite span {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    color: rgb(53, 53, 53);
+}
+
+.spite h4 {
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    color: rgb(53, 53, 53);
+}
+
+.spite .processed {
+    font-size: 15px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    color: rgb(53, 53, 53);
+}
+
+.backgrou-brown {
+    border-right: 0.1px solid rgb(53, 53, 53);
+    /* padding: 20px; */
+    padding-right: 20px;
+    height: 15vh;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.backgrou-brown1 {
+    padding: 20px;
+}
+
+.border-of-grey {
+    display: flex;
+    height: 20.8vh;
+    width: 28rem;
+    border-left: 0.1px solid rgb(53, 53, 53);
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f6f6f6;
+}
+
+.backgrou-brown1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.spite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.spite img {
+    width: 56px;
+    height: 17px;
+}
+
+.add-to-cart-es {
+    display: flex;
+    margin-top: 20px;
+    gap: 90px;
+    align-items: center;
+}
+
+.add-to-select {
+    width: 21vw;
+    height: 7vh;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    line-height: normal;
+    font-family: Montserrat, sans-serif;
+    background-color: #501da6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.add-to-funcution {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.add-to-select #add {
+    color: rgb(255, 0, 0);
+    text-transform: capitalize;
+    cursor: pointer;
+    border-bottom: 1px solid #501da6;
+}
+
+.dropdown-button {
+    background-color: #ffffff;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: -5px;
+    width: 13rem;
+    height: 20vh;
+    display: none;
+    color: black;
+}
+
+.dropdown-button ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    padding-top: 5px;
+    flex-direction: column;
+    gap: 15px;
+    text-transform: capitalize;
+}
+
+.dropdown-button ul li {
+    border-bottom: 1px solid #501da6;
+    padding: 5px;
+}
+
+.dropdown-button ul li a {
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+}
+
+.dropdown-button ul li:hover a {
+    color: #ffffff;
+}
+
+.dropdown-button ul li:hover {
+    background-color: #501da6;
+    color: #ffffff;
+}
+
+.Shipdate span {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    color: rgb(53, 53, 53);
+}
+
+.need-sooner-or {
+    width: 43rem;
+    height: 17vh;
+    border: 1px solid rgb(211, 211, 211);
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+        rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    align-items: center;
+}
+
+.call-email-faq-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    gap: 26px;
+    cursor: pointer;
+}
+
+.call1 {
+    width: 16vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: 17px;
+    color: rgb(53, 53, 53);
+    cursor: pointer;
+}
+
+.call2 {
+    width: 16vw;
+    height: 7vh;
+    cursor: pointer;
+}
+
+.call3 {
+    width: 16vw;
+    height: 7vh;
+    cursor: pointer;
+}
+
+.need-sooner-or-questions {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    line-height: 17px;
+    color: rgb(53, 53, 53);
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.show-with-confidence {
+    width: 100%;
+    height: 19vh;
+    background-color: #f9f9f9;
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.bbb-ylp-shopper-appoverd {
+    width: 40rem;
+    height: 12vh;
+    background-color: #ffffff;
+}
+
+.shop-with {
+    display: flex;
+    justify-content: right;
+    gap: 80px;
+    margin-right: 20px;
+}
+
+.shop-with span {
+    border: 1px solid rgb(211, 211, 211);
+    width: 190px;
+    height: 25px;
+    background-color: #ffffff;
+    margin-top: -9px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.shop-with1 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}
+
+.shop-with1 span {
+    text-transform: capitalize;
+    width: 190px;
+    height: 25px;
+    margin-top: -9px;
+    text-align: center;
+    padding-top: 4px;
+    border: 1px solid rgb(211, 211, 211);
+    font-size: 14px;
+}
+
+.bbb {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bbb img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+}
+
+.bbb-and-google-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.bbb-imge-div span {
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    color: rgb(53, 53, 53);
+    text-transform: capitalize;
+}
+
+.avalue-in-pro {
+    width: 30px;
+    padding: 3px;
+    height: 20px;
+    text-align: center;
+    border-radius: 4px;
+    color: orange;
+    background-color: black;
+}
+
+.avalue-in-pro {
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    line-height: 12px;
+    color: rgb(255, 184, 10);
+}
+
+.avalue-in-pro1 {
+    width: 90px;
+    padding: 3px;
+    height: 20px;
+    text-align: center;
+    border-radius: 4px;
+    color: orange;
+    background-color: black;
+}
+
+.avalue-in-pro1 {
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    line-height: 12px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+
+.star-div-half {
+    color: rgb(255, 184, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-div-half i {
+    color: rgb(255, 184, 10);
+    font-size: 8px;
+}
+
+.free-shipping-truck {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.bbb span {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    line-height: 14px;
+    line-height: normal;
+    color: rgb(53, 53, 53);
+    text-transform: capitalize;
+}
+
+.bbb {
+    color: rgb(53, 53, 53);
+}

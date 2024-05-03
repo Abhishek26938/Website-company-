@@ -1,0 +1,73 @@
+.consult-our-jewellery{
+    display: flex;
+    margin-bottom: -50px;
+}
+
+.consult-our-jewelery{
+    width: 50%;
+    height: 50vh;
+    background-color: #491a89;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.Jewellery-contect h3{
+    color: rgb(225 ,225 ,225);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+    line-height: 33px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+
+.Jewellery-contect p{
+    color: rgb(225 ,225 ,225);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+}
+
+.Ring-page-contect-costumar{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 50px;
+}
+
+.office-imagepin{
+    width: 50%;
+    height: 50vh;
+    object-fit: fill;
+}
+
+
+.vistie-ring-page{
+    width: 10rem;
+    height: 7vh;
+    border: 1px solid white;
+    background-color: #491a89;
+    color: rgb(225 ,225 ,225);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.vistie-ring-page:hover{
+    background-color: white;
+    color: #491a89;
+}
+

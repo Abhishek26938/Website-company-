@@ -1,0 +1,82 @@
+/*********************************************** Best Seller css in home page *************************/
+/*********************************************** Best Seller css in home page *************************/
+
+.flexibele_financing {
+  background-color: red;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+
+}
+
+.back-div-firx {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 91.3%;
+  margin-left: 50px;
+  background-size: cover;
+  background-position: center;
+ 
+  
+}
+
+.atm_card {
+  height: 65vh;
+  width: 89vw;
+  object-fit: cover;
+}
+
+.flexible h1 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 24px;
+  color: rgb(52, 52, 52);
+  text-align: center;
+  padding-top: 60px;
+}
+
+.flexible_financing_img {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 48px;
+}
+
+.affim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mothes_month {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 20px;
+  color: rgb(53, 53, 53);
+  text-align: center;
+}
+
+.affim img {
+  height: 100px;
+  width: 100px;
+}
+
+.affim a {
+  text-decoration: none;
+  color: #481989;
+  margin: 15px;
+}
+
+
+.leyar{
+  background-color : ghostwhite;;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+
+}

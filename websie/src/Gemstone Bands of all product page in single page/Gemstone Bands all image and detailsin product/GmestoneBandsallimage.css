@@ -1,0 +1,291 @@
+.div-of-gemstone-bands-back-to {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.back-to-result-gemstone-bands-btn {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+  color: rgb(87, 87, 87);
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  border: none;
+  background-color: #fff;
+}
+
+.div-of-onle-four-product-image {
+  display: flex;
+  gap: 60px;
+}
+
+.div-for-image-name-of-product img {
+  height: 60px;
+  width: 60px;
+}
+
+.socail-media-icon-gemsotne-and-spectice {
+  display: flex;
+  gap: 20px;
+}
+
+.div-for-image-name-of-product {
+  height: 85px;
+  width: 80px;
+  border: 2px solid rebeccapurple;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  padding: 5px;
+}
+
+.div-of-onely-singel-product {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.div-of-new-product-image {
+  background-color: rebeccapurple;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  padding-top: 1px;
+}
+
+.div-of-new-product-image1 {
+  font-size: 8px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.div-of-new-product-image2 {
+  font-size: 8px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  margin-left: 12px;
+}
+
+.div-of-new-product-image3 {
+  font-size: 8px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  margin-left: 5px;
+}
+
+select option:hover {
+  background-color: red;
+  appearance: none;
+}
+
+.div-produc-image-and-type-of-product {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 40px 30px;
+  gap: 100px;
+}
+
+.div-of-select-group-bands {
+  display: flex;
+gap: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.prodcut-of-image-titel-gemstone-product {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-stone-type-new-div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.titele-of-helf-eternity-diamond-ring {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+  color: rgb(53, 53, 53);
+  text-transform: capitalize;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+
+.itme-div-time-bands-fiel {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: rgb(71, 71, 71);
+  text-transform: capitalize;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+
+.code-itme-of-bands {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: rebeccapurple;
+  text-transform: capitalize;
+  line-height: 26px;
+  letter-spacing: 1px;
+  padding-right: 10px;
+  border-right: 1px solid rgb(71, 71, 71);
+}
+
+.view-details-in-prodcut-details {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: rebeccapurple;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+
+.this-div-of-product-item-code-bands {
+  display: flex;
+  gap: 20px;
+}
+
+.about-Product-iamge-input-gemstone-ring {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.value-of-sapphire-type {
+  width: 18.5rem;
+  height: 7vh;
+  border-radius: 3px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: rgb(71, 71, 71);
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  appearance: none;
+}
+
+.value-of-sapphire-type:hover {
+  border: 1px solid #481a89;
+  box-shadow: #481a89 0px 3px 8px;
+}
+
+#careta-reat-down-dit {
+  position: absolute;
+  top: 50%;
+  right: 6%;
+  font-size: 20px;
+  color: #481a89;
+}
+
+.stone-type-in-gemstone-bands {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: black;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.div-stone-product-image {
+  margin-top: 40px;
+}
+
+.div-of-button-and-image-estimeted {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.imge-of-car-in-bands {
+  width: 30px;
+  height: 20px;
+}
+
+.Add-to-cart-button-in-single-pic-cart-btn {
+  border: none;
+  width: 16rem;
+  height: 6vh;
+  border-radius: 4px;
+  background-color: #481a89;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.have-a-question-in-sinle-cart-neddd {
+  width: 38rem;
+  margin-top: 20px;
+  height: 15vh;
+  padding: 10px 10px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+}
+
+.head-image-prdocut-page-image {
+  object-fit: fill;
+  width: 370px;
+  height: 370px;
+}
+
+
+
+.div-image-prodcut-slider {
+  display: flex;
+  max-width: 370px;
+  overflow: auto;
+  height: 80vh;
+  align-items: center;
+ 
+  gap: 8px;
+}
+
+.div-of-new-rightdrop {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  display: none;
+  position: absolute;
+  margin-left: 14rem;
+  height: 12.5vh;
+  margin-top: -6px;
+}
+
+.div-of-new-rightdrop img {
+  border: 1px solid rgb(127, 127, 127);
+  margin: 6px;
+  padding: 5px;
+}
+
+.div-of-new-rightdrop img:hover {
+  border-color: #481a89;
+}
+
+.div-for-image-name-of-product:hover .div-of-new-rightdrop {
+  display: flex;
+}

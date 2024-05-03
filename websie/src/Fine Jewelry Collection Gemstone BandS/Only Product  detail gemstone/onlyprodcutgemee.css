@@ -1,0 +1,304 @@
+.Only-product-image-photo {
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  width: 18rem;
+  height: 52vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  position: relative;
+
+  z-index: 1;
+}
+
+.Now-image-pic-pro {
+  width: 200px;
+  height: 200px;
+}
+
+.only-product-deatial-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 0;
+}
+
+.Now-input-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.This-is-price-D {
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  color: rgb(0, 77, 0);
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+
+.Item-style-deatails {
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  color: rgb(53, 53, 53);
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.white-gold-mateal-ring {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  color: rgb(53, 53, 53);
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+
+.Half-Eternity-diamond-and {
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  color: rgb(53, 53, 53);
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.div-product-button-D {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+.div-product-button-D button {
+  width: 8.9rem;
+  height: 7vh;
+}
+
+.View-details-button-style {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  color: rgb(227, 227, 227);
+  line-height: 36px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0;
+}
+
+.View-details-button-style {
+  background-color: rgb(72, 26, 137);
+  border: none;
+}
+
+.View-details-button-style1 {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  color: rgb(53, 53, 53);
+  line-height: 36px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  padding-top: 8px;
+  opacity: 0;
+}
+
+.View-details-button-style1:hover {
+  display: block;
+}
+.View-details-button-style1:hover .liftsider-list-detail-munu {
+  display: block;
+}
+
+.Only-product-image-photo:hover {
+  border-color: rgb(227, 227, 227);
+}
+
+.Only-product-image-photo:hover .white-gold-mateal-ring{
+  color:  rgb(72, 26, 137);
+}
+
+.Only-product-image-photo:hover .View-details-button-style {
+  opacity: 1;
+}
+
+.Only-product-image-photo:hover .View-details-button-style1 {
+  opacity: 1;
+}
+
+.Only-product-image-photo:hover .Half-Eternity-diamond-and {
+  display: none;
+}
+
+.prodcut-new-div-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 70px 0px  30px 30px;
+ 
+}
+
+.liftsider-list-detail-munu {
+  width: 20rem;
+  height: 52vh;
+  border-left: 2px solid rgba(227, 227, 227);
+  border-top: 2px solid rgba(227, 227, 227);
+  border-bottom: 2px solid rgba(227, 227, 227);
+  margin-bottom: -2px;
+  bottom: 0;
+  left: 0;
+  margin-left: -20rem;
+  display: none;
+  position: absolute;
+
+  background-color: white;
+  
+}
+
+.diamond-heading-Quick {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: left;
+}
+
+.lift-sider-list-muves {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.diamond-heading-Quick h3 {
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  color: rgb(76, 31, 140);
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  border-bottom: 2px solid rgb(227, 227, 227);
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+
+.diamond-heading-Quick-name {
+  margin-top: 20px;
+}
+
+.diamond-heading-Quick-name h3 {
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  color: rgb(76, 31, 140);
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  border-bottom: 2px solid rgb(227, 227, 227);
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+
+.blue-sapphire-Deatail-one {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+  line-height: 27px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  border-bottom: 2px solid rgb(227, 227, 227);
+  margin-right: 10px;
+  padding-bottom: 7px;
+}
+
+.blue-sapphire-Deatail-two {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+  line-height: 27px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  border-bottom: 2px solid rgb(227, 227, 227);
+  margin-right: 10px;
+  padding-bottom: 7px;
+}
+
+.blue-sapphire-Deatail-one-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+  line-height: 27px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  border-bottom: 2px solid rgb(227, 227, 227);
+  margin-right: 10px;
+  padding-bottom: 7px;
+}
+
+.blue-sapphire-Deatail-two-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+  line-height: 27px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  border-bottom: 2px solid rgb(227, 227, 227);
+  margin-right: 10px;
+  padding-bottom: 7px;
+}
+
+.Number-Deteail {
+  color: rgb(76, 31, 140);
+}
+
+.dont-now-two {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  gap: 20px;
+}
+
+.SElect-from-our-beautiful{
+    font-size: 13px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0 10px;
+}

@@ -1,0 +1,58 @@
+/*********************************************** FAQ Qution css in Product  page *************************/
+/*********************************************** FAQ Qution  css in Product page *************************/
+
+.answer {
+  display: none;
+  padding-left: 30px;
+}
+
+
+.FAQSapphireimaginpage{
+  
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  color:   rgb(79, 35, 141);
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
+
+
+
+.howto {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.butoon-borader {
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+
+#answer {
+  padding: 10px 50px;
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 5px;
+  display: none;
+  margin-left: -60px;
+}
+
+#answer {
+  border-bottom: 1px solid rgb(161, 161, 161);
+}
+
+.faq-sapphire {
+  width: 100%;
+  margin: 10px 0px;
+  margin-top: 40px !important;
+  overflow: hidden;
+}
+

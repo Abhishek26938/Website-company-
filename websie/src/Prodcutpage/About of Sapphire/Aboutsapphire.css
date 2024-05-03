@@ -1,0 +1,36 @@
+/*********************************************** About of Sapphire in Prodcut Page *************************/
+/*********************************************** About of sapphire  css in product  page *************************/
+
+.about_sapphire {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.about_sapphire {
+  height: 50vh;
+  width: 100%;
+  background-color: #f9fbff;
+  padding: 0 15px;
+}
+
+.about-new-sapphire h3 {
+  color: #481989;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+  line-height: 24px;
+}
+
+.about-new-sapphire p {
+  color: rgb(53, 53, 53);
+  font-size: 13px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 20px;
+}
+
+.gemstone-imges-group0 img{
+  width: 25rem;
+  object-fit: fill;
+}

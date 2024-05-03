@@ -1,0 +1,660 @@
+/*********************************************** Jion the Community css in home page *************************/
+/*********************************************** JIon the community css in home page *************************/
+
+.preset_coloection {
+  height: 95vh;
+  width: 100%;
+  margin-top: 60px;
+  background-color: #f9f8f4;
+}
+
+.shop_our {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.pearset {
+  font-size: 38px;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  line-height: 42px;
+  color: rgb(52, 52, 52);
+}
+
+.shop_our_curated {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  line-height: 20px;
+  color: rgb(53, 53, 53);
+}
+
+.image_ring {
+  display: flex;
+  column-gap: 50px;
+  justify-content: center;
+  opacity: 1;
+}
+
+.image_ring {
+  display: flex;
+  gap: 50px;
+}
+
+.ring_1 {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  z-index: 999;
+  width: 270px;
+  height: 320px;
+}
+
+.ring_1:hover {
+  border-radius: 40px;
+}
+
+.ring_1 img:hover {
+  transform: scale(1.1);
+}
+
+.ring_1:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+.ring_1:hover:before {
+  background-color: rgba(255, 255, 255, 0.1);
+  right: 50.5%;
+  left: 50.5%;
+}
+
+.ring_1:hover:after {
+  background-color: rgba(255, 255, 255, 0.1);
+  top: 50.5%;
+  bottom: 50.5%;
+}
+
+.ring_1:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+.ring_imgesnew {
+  display: flex;
+  flex-direction: column;
+  column-gap: 50px;
+  justify-content: center;
+}
+
+.ring_imgesnew1 {
+  display: flex;
+  flex-direction: column;
+  column-gap: 50px;
+  justify-content: center;
+}
+
+.ring_2 {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  z-index: 999;
+  width: 270px;
+  height: 320px;
+}
+
+.ring_2 img:hover {
+  transform: scale(1.1);
+}
+
+.ring_2:hover {
+  border-radius: 40px;
+}
+
+.ring_2:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+.ring_2:hover:before {
+  background-color: rgba(255, 255, 255, 0.1);
+  right: 50.5%;
+  left: 50.5%;
+}
+
+.ring_2:hover:after {
+  background-color: rgba(255, 255, 255, 0.1);
+  top: 50.5%;
+  bottom: 50.5%;
+}
+
+.ring_2:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+.ring_3 {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  z-index: 999;
+  z-index: 999;
+  width: 270px;
+  height: 320px;
+}
+
+.ring_3 img:hover {
+  transform: scale(1.1);
+}
+
+.ring_3:hover {
+  border-radius: 40px;
+}
+
+.ring_3:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+.ring_3:hover:before {
+  background-color: rgba(255, 255, 255, 0.1);
+  right: 50.5%;
+  left: 50.5%;
+}
+
+.ring_3:hover:after {
+  background-color: rgba(255, 255, 255, 0.1);
+  top: 50.5%;
+  bottom: 50.5%;
+}
+
+.ring_3:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+.ring_1 {
+  display: flex;
+  flex-direction: column;
+  transition: all ease 0.3s;
+}
+.ring_2 {
+  display: flex;
+  flex-direction: column;
+  transition: all ease 0.3s;
+}
+
+.ring_3 {
+  display: flex;
+  flex-direction: column;
+  transition: all ease 0.3s;
+}
+
+.image_earring1 {
+  display: none;
+  column-gap: 50px;
+  justify-content: center;
+  margin-top: -344px;
+  opacity: 1;
+}
+
+.image_pandant2 {
+  display: none;
+  column-gap: 50px;
+  justify-content: center;
+  margin-top: -344px;
+  opacity: 1;
+}
+
+.ring_button {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  gap: 10px;
+  text-align: centers;
+  margin-top: 30px;
+}
+
+.ring_button button {
+  width: 150px;
+  height: 40px;
+  border: 1px solid rgb(53, 53, 53);
+}
+
+.Rings {
+  background-color: #707070;
+  color: #ffff !important;
+}
+
+.Earrings,
+.Pandents {
+  background-color: transparent;
+}
+
+.Pandents:hover {
+  background-color: #707070;
+  color: #fff;
+}
+.Earrings:hover {
+  background-color: #707070;
+  color: #fff;
+}
+
+.ring_1 img {
+  width: 270px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.ring_2 img {
+  width: 270px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.ring_3 img {
+  width: 270px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.ring_button button {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 20px;
+  color: rgb(53, 53, 53);
+  text-transform: uppercase;
+}
+
+/*********************************************** Best Seller css in home page *************************/
+/*********************************************** Best Seller css in home page *************************/
+
+
+
+.Best_seller {
+  margin: 50px;
+}
+
+.Best_seller h1 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 26px;
+  color: rgb(52, 52, 52);
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.alltype_jewe {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  width: 50%;
+  height: 72vh;
+  margin-left: -10px;
+  min-width: 1200px;
+  overflow: hidden;
+}
+
+.pand_s_image {
+  display: flex;
+  height: 370px;
+  width: 280px;
+  flex-direction: column;
+  column-gap: 30px;
+  background-color: white;
+}
+
+.pand_s_image:hover {
+  opacity: 0;
+}
+
+.pand_s_image1 {
+  display: flex;
+  flex-direction: column;
+  column-gap: 9px;
+  justify-content: center;
+  background-color: white;
+  height: 370px;
+  width: 280px;
+}
+
+.pand_s_image1:hover {
+  opacity: 0;
+}
+
+.pand_s_image2 {
+  display: flex;
+  height: 370px;
+  width: 280px;
+  flex-direction: column;
+  column-gap: 30px;
+  background-color: white;
+}
+
+.pand_s_image2:hover {
+  opacity: 0;
+}
+
+.pand_s_image3 {
+  display: flex;
+  height: 370px;
+  width: 280px;
+  flex-direction: column;
+  column-gap: 30px;
+  background-color: white;
+}
+
+.pand_s_image3:hover {
+  opacity: 0;
+}
+
+.pand_s_image4 {
+  display: flex;
+  height: 370px;
+  width: 280px;
+  flex-direction: column;
+  column-gap: 30px;
+  background-color: white;
+}
+
+.pand_s_image4:hover {
+  opacity: 0;
+}
+
+.pand_s_image5 {
+  display: flex;
+  height: 370px;
+  width: 280px;
+  flex-direction: column;
+  column-gap: 30px;
+  background-color: white;
+}
+
+.pand_s_image5:hover {
+  opacity: 0;
+}
+
+.pand_s_image6 {
+  display: flex;
+  height: 370px;
+  width: 280px;
+  flex-direction: column;
+  column-gap: 30px;
+  background-color: white;
+}
+
+.pand_s_image6:hover {
+  opacity: 0;
+}
+
+.pand_s_image7 {
+  display: flex;
+  height: 370px;
+  width: 280px;
+  flex-direction: column;
+  column-gap: 30px;
+  background-color: white;
+}
+
+.pand_s_image7:hover {
+  opacity: 0;
+}
+
+.background_red {
+  background-image: url(https://d3kinlcl20pxwz.cloudfront.net/imgs/main/preset-rings-three-rings-sapphire-solitaire.webp);
+  background-position: center;
+  background-size: cover;
+  height: 370px;
+  width: 280px;
+  position: relative;
+}
+.background_red1 {
+  background-image: url(https://d3kinlcl20pxwz.cloudfront.net/imgs/main/preset-rings-three-rings-sapphire-solitaire.webp);
+  background-position: center;
+  background-size: cover;
+  height: 370px;
+  width: 280px;
+  position: relative;
+}
+.background_red2 {
+  background-image: url(https://d3kinlcl20pxwz.cloudfront.net/imgs/main/preset-rings-three-rings-sapphire-solitaire.webp);
+  background-position: center;
+  background-size: cover;
+  height: 370px;
+  width: 280px;
+  position: relative;
+}
+
+.background_red3 {
+  background-image: url(https://d3kinlcl20pxwz.cloudfront.net/imgs/main/preset-rings-three-rings-sapphire-solitaire.webp);
+  background-position: center;
+  background-size: cover;
+  height: 370px;
+  width: 280px;
+  position: relative;
+}
+
+.background_red4 {
+  background-image: url(https://d3kinlcl20pxwz.cloudfront.net/imgs/main/preset-rings-three-rings-sapphire-solitaire.webp);
+  background-position: center;
+  background-size: cover;
+  height: 370px;
+  width: 280px;
+  position: relative;
+}
+
+.background_red5 {
+  background-image: url(https://d3kinlcl20pxwz.cloudfront.net/imgs/main/preset-rings-three-rings-sapphire-solitaire.webp);
+  background-position: center;
+  background-size: cover;
+  height: 370px;
+  width: 280px;
+  position: relative;
+}
+
+.background_red6 {
+  background-image: url(https://d3kinlcl20pxwz.cloudfront.net/imgs/main/preset-rings-three-rings-sapphire-solitaire.webp);
+  background-position: center;
+  background-size: cover;
+  height: 370px;
+  width: 280px;
+  position: relative;
+}
+
+.background_red7 {
+  background-image: url(https://d3kinlcl20pxwz.cloudfront.net/imgs/main/preset-rings-three-rings-sapphire-solitaire.webp);
+  background-position: center;
+  background-size: cover;
+  height: 370px;
+  width: 280px;
+  position: relative;
+}
+
+.pand_s_image img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.pand_s_image1 img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+.pand_s_image2 img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.pand_s_image3 img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.pand_s_image4 img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.pand_s_image5 img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.pand_s_image6 img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.pand_s_image7 img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.arro {
+  position: relative;
+  width: 1200px;
+}
+
+#prev-slide {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: -10px;
+  margin-right: 50px;
+  padding-left: 6px;
+  align-items: center;
+  font-size: 25px;
+  color: rgb(31, 31, 31);
+  height: 40px;
+  width: 30px;
+  border: 2px solid rgb(53, 53, 53);
+}
+
+#next-slide {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: rgb(31, 31, 31);
+  border: 2px solid rgb(53, 53, 53);
+  height: 40px;
+  width: 30px;
+  padding-top: -5px;
+  padding-left: 4px;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: -10px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  width: 50%s;
+}
+
+.alltype_jewe .slider-scrollbar {
+  height: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.alltype_jewe.scrollbar-track {
+  height: 3px;
+  background: #ccc;
+  width: 100%;
+  height: 2px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  position: relative;
+}
+
+#price_d_img {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.prince_mrp {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 15px;
+  color: rgb(52, 52, 52);
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.real_parice {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 20px;
+  color: rgb(52, 52, 52);
+  padding-top: 8px;
+  padding-left: 6px;
+}
+
+.oval_cut {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 20px;
+  color: rgb(52, 52, 52);
+  padding: 10px;
+}

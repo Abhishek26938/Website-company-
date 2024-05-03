@@ -1,0 +1,580 @@
+/*********************************************** Fillter css in home page *************************/
+/*********************************************** Fillter css in home page *************************/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.loose-gem {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+
+  margin: 30px;
+}
+
+.loose-gem h1 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+  text-transform: capitalize;
+  line-height: 20px;
+  color: #481989;
+}
+
+.loose-gem span {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  text-transform: capitalize;
+  line-height: normal;
+}
+
+.loose-gem a {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  text-transform: capitalize;
+  line-height: normal;
+  text-decoration: none;
+  color: #481989;
+}
+
+#gemstone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 1.1px;
+  margin-left: 1px;
+}
+
+.gemboex span {
+  font-size: 11px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  text-transform: capitalize;
+  line-height: normal;
+}
+
+.stone {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  margin-top: 25px;
+  margin-left: -3px;
+}
+
+.boer {
+  border-left: 1px solid rgb(90, 90, 90);
+  border-bottom: 1px solid rgb(90, 90, 90);
+  border-top: 1px solid rgb(90, 90, 90);
+  width: 40px;
+  height: 40px;
+  position: relative;
+  display: flex;
+  padding-left: 10px;
+}
+
+.boee {
+  border-right: 1px solid rgb(90, 90, 90);
+  border-radius: 5px;
+}
+
+.boee-1 {
+  border-radius: 5px;
+}
+
+.all-checkbox {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.boerd-div {
+  margin-left: 10px;
+  display: flex;
+}
+
+.gemboex {
+  display: flex;
+  gap: 20px;
+  margin: 20px 30px;
+}
+
+.boexes-type {
+  display: flex;
+  gap: 0px;
+}
+
+/*********************************************** Input range  css in product  page *************************/
+/*********************************************** input Range in product  page *************************/
+
+.two-input {
+  display: flex;
+}
+
+.input-function {
+  display: flex;
+  gap: 20px;
+  margin: 20px 30px;
+}
+
+.range-div input {
+  width: 39vw;
+  height: 14px;
+  border-radius: 30px;
+  background-color: white;
+  margin-left: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.gap_div {
+  height: 50vh;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.checkboxclass {
+  z-index: 999;
+}
+
+
+.all_fitter{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin:  20px 0px  30px 30px;
+  margin-bottom: -40px;
+  gap: 0px;
+ 
+}
+
+.multiselect {
+  width: 17vw;
+  height: 9vh;
+  
+}
+
+
+.selectBox{
+  z-index: 999;
+}
+
+
+.selectBox select {
+  width: 100%;
+  height: 6vh;
+  border: 0.1px solid rgb(90, 90, 90);
+  background-color: transparent;
+  border-radius: 40px;
+  padding-left: 12px;
+  padding-right: -20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.selection_div{
+  z-index: 9999 !important;
+}
+
+.mzx-civ {
+  display: flex;
+}
+
+
+
+#checkboxes1 {
+  display: none;
+  border: 1px #dadada solid;
+  margin-left: 5px;
+  height: 27vh;
+  padding-top: 12px;
+  border-radius: 7px;
+  padding-left: 20px;
+  background-color: white;
+  z-index: 9990;
+  width: 16vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  cursor: pointer;
+}
+
+#checkboxes2 {
+  display: none;
+  border: 1px #dadada solid;
+  margin-left: 5px;
+  height: 27vh;
+  padding-top: 12px;
+  border-radius: 7px;
+  padding-left: 20px;
+  background-color: white;
+  z-index: 9990;
+  width: 16vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#checkboxes3 {
+  display: none;
+  border: 1px #dadada solid;
+  margin-left: 5px;
+  height: 27vh;
+  padding-top: 12px;
+  border-radius: 7px;
+  padding-left: 20px;
+  background-color: whit;
+  z-index: 9990;
+  width: 16vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#checkboxes4 {
+  display: none;
+  border: 4px #dadada solid;
+  margin-left: 5px;
+  height: 27vh;
+  padding-top: 12px;
+  border-radius: 7px;
+  padding-left: 20px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 16vw;
+}
+
+#checkboxes5 {
+  display: none;
+  border: 4px #dadada solid;
+  margin-left: 5px;
+  height: 27vh;
+  padding-top: 12px;
+  border-radius: 7px;
+  padding-left: 20px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 16vw;
+}
+
+#checkboxes6 {
+  display: none;
+  border: 4px #dadada solid;
+  margin-left: 5px;
+  height: 27vh;
+  padding-top: 12px;
+  border-radius: 7px;
+  padding-left: 20px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 16vw;
+}
+
+#checkboxes7 {
+  display: none;
+  border: 4px #dadada solid;
+  margin-left: 5px;
+  height: 27vh;
+  padding-top: 12px;
+  border-radius: 7px;
+  padding-left: 20px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 16vw;
+}
+
+#checkboxes8 {
+  display: none;
+  border: 4px #dadada solid;
+  margin-left: 5px;
+  height: 27vh;
+  padding-top: 12px;
+  border-radius: 7px;
+  padding-left: 20px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 16vw;
+}
+
+#checkboxes9 {
+  display: none;
+  border: 4px #dadada solid;
+  margin-left: 5px;
+  height: 27vh;
+  padding-top: 12px;
+  border-radius: 7px;
+  padding-left: 20px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 16vw;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+
+
+
+
+/************************************************* Hide Aminusdditional filters ********************************/
+/************************************************* Hide Aminusdditional filters ********************************/
+
+.seceltion_div {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 9rem;
+  margin-left: 16px;
+}
+
+.hide_the-additoinal {
+  width: 100%;
+  height: 5vh;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(90, 90, 90);
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+}
+
+.hide {
+  display: flex;
+  padding-left: 20px;
+  padding-top: 2px;
+  gap: 15px;
+}
+
+.hide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+.hide_it {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+.plues {
+  border: 2px solid red;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 12px;
+  padding-bottom: 18px;
+  color: white;
+  width: 19px;
+  height: 19px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.minus {
+  border: 2px solid red;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 12px;
+  padding-bottom: 18px;
+  color: white;
+  width: 19px;
+  height: 19px;
+  text-align: center;
+  margin-top: 6px;
+  display: none;
+ 
+}
+
+#checkboxes10 {
+  display: none;
+  border: 4px #dadada solid;
+  margin-left: 5px;
+  height: 27vh;
+  padding-top: 12px;
+  border-radius: 7px;
+  padding-left: 20px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 16vw;
+}
+
+#checkboxes11 {
+  display: none;
+  border: 4px #dadada solid;
+  margin-left: 5px;
+  height: 27vh;
+  padding-top: 12px;
+  border-radius: 7px;
+  padding-left: 20px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 16vw;
+}
+
+.hid-fittle{
+  display: block;
+}
+
+#box select {
+  width: 100%;
+  height: 6vh;
+  border: 0.1px solid rgb(90, 90, 90);
+  background-color: transparent;
+  border-radius: 0px;
+  padding-left: 12px;
+  padding-right: 10px;
+  font-weight: bold;
+  z-index: 10000;
+}
+
+.Result_button_compre {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(90, 90, 90);
+  height: 8vh;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.fitter_div {
+  display: flex;
+  justify-content: space-around;
+  gap: 90px;
+  margin-right: 150px;
+}
+
+.button_resul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.button_resul button {
+  width: 12vw;
+  height: 6.2vh;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  color: #481989;
+  border: 1.5px solid #481989;
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+
+.compare_but {
+  display: flex;
+  gap: 120px;
+}
+
+
+
+
+/***************************************************** prince range in prodcut page in css  ***************************************/
+/***************************************************** prince range in prodcut page in css  ***************************************/
+
+
+.price-input{
+  width: 100%;
+  display: flex;
+  margin: 0px 0 20px;
+  justify-content: space-between;
+}
+.price-input .field{
+  display: flex;
+  width: 20%;
+  height: 30px;
+  align-items: center;
+}
+.field input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-size: 19px;
+  margin-left: 15px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #999;
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.price-input .separator{
+  width: 120px;
+  display: flex;
+  font-size: 19px;
+  padding-left: -20px;
+  align-items: center;
+  justify-content: center;
+}
+.slider{
+  height: 5px;
+  position: relative;
+  background: #ddd;
+  border-radius: 5px;
+}
+.slider .progress{
+  height: 100%;
+  left: 30%;
+  right: 25%;
+  position: absolute;
+  border-radius: 5px;
+  background: #481989;
+}
+.range-input{
+  position: relative;
+}
+.range-input input{
+  position: absolute;
+  width: 100%;
+  height: 8px;
+  top: -5px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: white;
+  pointer-events: auto;
+  border: 1px solid rgb(90, 90, 90);
+  -webkit-appearance: none;
+  box-shadow: 0 0 6px rgba(0,0,0,0.05);
+}
+input[type="range"]::-moz-range-thumb{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid rgb(90, 90, 90);
+  pointer-events: auto;
+  -moz-appearance: none;
+  box-shadow: 0 0 6px rgba(0,0,0,0.05);
+}
+
+
+.field input:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+

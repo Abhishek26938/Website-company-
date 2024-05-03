@@ -1,0 +1,242 @@
+/*********************************************** Footer  css in home page *************************/
+/*********************************************** Footer css in home page *************************/
+.subscrible_to_ {
+  height: 20vh;
+  width: 100%;
+  background-color: #7962be;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.subscrible_to_t {
+  display: flex;
+  padding-top: 10px;
+  color: white;
+  padding-left: 50px;
+}
+
+.subscrible_to_text3 {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.subscrible_t {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.subscrible_t h5 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 20px;
+}
+
+.subscrible_t span {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  line-height: 24px;
+}
+
+.subscrible_t a {
+  color: #ffff;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  line-height: 20px;
+}
+
+.subscrible_t input {
+  height: 43px;
+  width: 30vw;
+  padding-left: 10px;
+  border: none;
+}
+
+.subscrible_t button {
+  height: 42.5px ;
+  width: 10vw;
+  margin-left: -130px;
+  background-color: #491a89;
+  border: none;
+}
+
+.subscrible_t button {
+  color: #ffff;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+
+.div_imag23 img {
+  width: 30px;
+  height: 30px;
+}
+
+.customar {
+  justify-content: space-between;
+  margin-right: 120px;
+  display: flex;
+}
+
+.CUSTOMER_service {
+  margin-top: 20px;
+}
+
+.first_footer {
+  margin-left: 30px;
+}
+
+.call {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.CUSTOMER_service h2 {
+  color: rgb(51, 51, 51);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.div_imag23 {
+  margin-top: 30px;
+}
+
+.call a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  line-height: 18px;
+  text-transform: capitalize;
+}
+
+.social_media {
+  width: 100%;
+  height: 8vh;
+  background-color: #f6f6f6;
+  margin-top: 50px;
+  position: relative;
+}
+
+.Social_media_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.media_logo {
+  margin-left: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.media_logo img {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  object-fit: cover;
+}
+
+.credit_card {
+  margin-top: 10px;
+  margin-right: 60px;
+  display: flex;
+  gap: 15px;
+}
+
+.credit_card img {
+  height: 30px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.privacy_policy {
+  width: 100%;
+  height: 10vh;
+  background-color: #dddddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.policy {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around !important;
+}
+
+.trems {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.trems a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.all_right1234 {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-left: 70px;
+}
+
+.GemNycomAll {
+  color: red;
+  float: right;
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.This-siteis {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: -20px;
+}
+
+#new-shpping-carat-from {
+  font-size: 40px;
+  margin-right: -25px;
+}
+
+#new-shpping-user-group {
+  font-size: 40px;
+  margin-right: -25px;
+}

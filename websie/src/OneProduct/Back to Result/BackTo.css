@@ -1,0 +1,52 @@
+/*********************************************** Back To Button css in One Product  page *************************/
+/*********************************************** Back To Button css in One Product page *************************/
+
+.back-to-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+
+.statrus-n {
+    display: flex;
+    gap: 10px;
+}
+
+.share-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.see-all {
+    font-size: 13px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+.fa-heart {
+    color: rgb(72, 25, 137);
+}
+
+.statrus-n span {
+    font-size: 13px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    text-transform: capitalize;
+}
+
+.statrus-n a {
+    text-decoration: none;
+    color: green;
+    font-weight: 600;
+}
+
+.view-pot { 
+    display: flex;
+    align-items: center;
+}

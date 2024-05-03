@@ -1,0 +1,40 @@
+.Preset-ring-product {
+    height: 80vh;
+    width: 100%;
+    background-color: #f9f8f4;
+    margin-top: 40px;
+  }
+  
+  .collorection-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .imagebord img {
+    width: 290px !important;
+    height: 340px !important;
+  }
+  
+  .collorection-bar h3 {
+    font-size: 24px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    color: #481989;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  
+  .collorection-bar span {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(53, 53, 53);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  

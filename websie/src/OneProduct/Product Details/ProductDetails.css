@@ -1,0 +1,488 @@
+/*********************************************** Product Details css in single Product page *************************/
+/*********************************************** Product Details css in Single Product page *************************/
+
+.procut-page {
+  width: 100%;
+  height: 97vh;
+  background-color: #f1f3f4;
+  margin-top: 70px;
+}
+
+.procut-page h1 {
+  font-size: 24px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: rgb(53, 53, 53);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.poduct-details-product {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 20rem;
+}
+
+.colem-number-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.colem-number-3 span {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  color: rgb(101, 101, 101);
+}
+
+.overall {
+  width: 16rem;
+  height: 7vh;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.overall {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.overall {
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  background-color: white;
+}
+
+.overall1 {
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 16rem;
+  height: 7vh;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+  background-color: #501da6;
+  cursor: pointer;
+}
+
+.overall-quality-great {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.hight-quality {
+  width: 62.5rem;
+  height: 26.2vh;
+  border: 1px solid rgb(211, 211, 211);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 36px;
+}
+
+.div-learn-about {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.span-tag-for-pra {
+  width: 59rem;
+  margin-top: -20px;
+  height: 19vh;
+  border: 1px solid rgb(211, 211, 211);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  border-radius: 6px;
+}
+
+.A-button-hight {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  top: 0;
+  border: none;
+  padding: 0px 1px;
+  cursor: pointer;
+}
+
+#aaa-hight {
+  width: 184px;
+  height: 40px;
+  background-color: rgb(211, 211, 211);
+  border: none;
+  padding: 0px 2px;
+  cursor: pointer;
+}
+
+#aaa-hight {
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+ 
+}
+
+#aaa-hight1 {
+  width: 184px;
+  height: 40px;
+  background-color: #501da6;
+  color: #ffffff;
+  border: none;
+  padding: 0px 2px;
+  cursor: pointer;
+  position: relative;
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.fa-play {
+  position: absolute;
+  bottom: 0;
+  transform: rotate(90deg);
+  text-align: center;
+  margin-bottom: -10px;
+  margin-left: -23px;
+  color: #501da6;
+}
+
+.hight-sappire-that {
+  padding-top: 60px;
+  padding-left: 20px;
+  text-align: center;
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 15px;
+  text-transform: capitalize;
+  color: rgb(53, 53, 53);
+}
+
+.span-tag-for-pra1 {
+  display: none;
+  width: 59rem;
+  margin-top: -20px;
+  height: 19vh;
+  border: 1px solid rgb(211, 211, 211);
+  position: relative;
+
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  border-radius: 6px;
+}
+
+.span-tag-for-pra2 {
+  display: none;
+  width: 59rem;
+  margin-top: -20px;
+  height: 19vh;
+  border: 1px solid rgb(211, 211, 211);
+  position: relative; 
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  border-radius: 6px;
+}
+
+.natrula-earth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 23px 0px;
+  gap: 20px;
+}
+
+.natrula-earth img {
+  width: 60px;
+  height: 60px;
+}
+
+.natrula-earth span {
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 15px;
+  text-transform: capitalize;
+  color: rgb(53, 53, 53);
+}
+
+.how-to-big h2 {
+  font-size: 24px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 29px;
+  text-transform: capitalize;
+  text-align: center;
+  padding-left: 40px;
+  margin: 40px;
+  color: rgb(53, 53, 53);
+}
+
+.size-vs-dime span {
+  font-size: 22px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 29px;
+  text-transform: capitalize;
+
+  color: rgb(53, 53, 53);
+}
+
+.virtural-sizee {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.lenght {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  width: 100%;
+  margin-left: -30px;
+  height: 60vh;
+  align-items: center;
+  background-color: white;
+}
+
+.lenght-11mm {
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  color: rgb(53, 53, 53);
+  margin-bottom: 20px;
+  margin-left: 260px;
+}
+
+.graf-of-sapphire {
+  border: 1px solid rgb(241, 241, 241);
+  background-color: white;
+  width: 30vw;
+  height: 55vh;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.lenghtmm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-around;
+  border: 1px solid rgb(241, 241, 241);
+  width: 40vw;
+  height: 61vh;
+  padding: 20px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+
+.finger-div-new {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.ring-sizinge-ring li {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  list-style-type: none;
+}
+
+.fa-circle {
+  font-size: 50px;
+}
+
+#yellow {
+  width: 50px;
+}
+
+.acsb-connected-input-shown {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: capitalize;
+  margin-top: 10px;
+  color: rgb(52, 52, 52);
+}
+
+#yellow {
+  color: rgba(255, 255, 0, 0.726);
+}
+
+#white {
+  color: rgba(241, 241, 241, 0.856);
+}
+
+#rose {
+  color: rgba(188, 143, 143, 0.76);
+}
+
+#s1 {
+  height: 6vh;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  padding-left: 10px;
+}
+
+.reisize-div-usd {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reisize-div-usd {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  color: rgb(52, 52, 52);
+}
+
+.Rign-metal-of-resizeing {
+  text-align: center;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: capitalize;
+  margin-top: 7px;
+  color: rgb(52, 52, 52);
+}
+
+.ring-width {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: rgb(52, 52, 52);
+  margin-top: 20px;
+}
+
+.select-chay {
+  display: flex;
+  gap: 60px;
+}
+
+.divx {
+  margin-left: -70px;
+  width: 20vw;
+  margin-top: 0px;
+  margin-left: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.ring1-box-div {
+  display: flex;
+  gap: 60px;
+}
+
+.image-above {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: rgb(53, 53, 53);
+  text-align: center;
+}
+
+.comparese {
+  margin-top: 20px;
+}
+
+.For-futur {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: rgb(53, 53, 53);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.important-facts {
+  background-image: url(https://d3kinlcl20pxwz.cloudfront.net/images/home_new/finance_bg_banner.jpg?format=webp);
+  margin-top: 60px;
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.important-facts {
+  display: flex;
+}
+
+.important-facts-before {
+  width: 100%;
+  height: 70vh;
+  background-color: ghostwhite;
+  opacity: 0.9;
+}
+
+.importan-befor {
+  font-size: 24px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: rgb(53, 53, 53);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.figartniter{
+  width:70px;
+  height: 300px;
+  margin-top: -40px;
+}
+

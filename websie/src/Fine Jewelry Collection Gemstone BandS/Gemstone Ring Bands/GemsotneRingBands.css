@@ -1,0 +1,78 @@
+.prodcut-par-page-div {
+  display: none;
+  flex-direction: column;
+  width: 14rem;
+  height: auto;
+  padding-left: 10px;
+  background-color: #ffffff;
+  border: 1px solid rgb(227, 227, 227);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 10px;
+  transition: all ease-in-out 0.3s;
+ 
+}
+
+.className-div-selec-span {
+  width: 14rem;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  padding-left: 10px;
+  border: 1px solid rgb(127, 127, 127);
+  cursor: pointer;
+ 
+  z-index: 99999;
+  
+}
+
+.className-div-selec-span:hover {
+  box-shadow: rgba(84, 2, 100, 0.25) 0px 14px 28px,
+    rgba(7, 5, 105, 0.349) 0px 10px 10px;
+  border-color: rgb(79, 35, 141);
+}
+.paroduct-icont-par .fa-caret-down {
+  position: absolute;
+  right: 0;
+  margin-left: 200px;
+  margin-top: -10px;
+  font-size: 25px;
+  color: rgb(127, 127, 127);
+  z-index: 2;
+}
+
+
+.div-of-Result-product {
+  display: flex;
+  gap: 60px;
+  justify-content: space-around;
+  border-top: 1px solid rgb(127, 127, 127);
+  border-bottom: 1px solid rgb(127, 127, 127);
+  width: 100%;
+  height: 8vh;
+  z-index: 9999;
+  position: absolute;
+}
+
+.Prodcut-details-gemstone {
+  display: flex;
+  gap: 80px;
+}
+
+.Result-prodcut-gem-page {
+  width: 9rem;
+  height: 6vh;
+  border: none;
+  background-color: rgb(79, 35, 141);
+  margin-top: 10px;
+  margin-left: -40px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: #ffffff;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  line-height: 40px;
+}

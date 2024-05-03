@@ -1,0 +1,113 @@
+
+/*********************************************** video css in home page *************************/
+/*********************************************** video css in home page *************************/
+
+.main_video{
+    position: relative;
+    
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    
+  }
+  
+  .expreses{
+    position: absolute;
+    text-align: center;
+    right: 0;
+    margin-top: -18rem;
+    
+    margin-right: 200px;
+    align-items: center;
+    text-align: left; 
+  }
+  
+  .Eduction{
+    text-align: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    border: none;
+    
+  }
+  
+  .Eduction:hover{
+    background-color: white;
+    border: none;
+  }
+  
+  .expreses span{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    line-height: 20px;
+    color: rgb(52, 52, 52);
+  }
+  
+  .eternal_h1{
+    font-size: 31px;
+    font-weight:800;
+    font-family: "Playfair Display", serif;
+    line-height: 34px;
+  }
+  
+  
+  .expreses input{
+    height: 43px;
+    width: 19rem;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  
+  .expreses input:hover{
+    background-color: black;
+    color: white ;
+  }
+  
+  
+  
+  /*********************************************** Cartificate css in home page *************************/
+  /*********************************************** cretificate in home page *************************/
+  
+  
+  
+  .ceticate{
+    position: relative;
+  }
+  
+  .divemiileman{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top:31rem !important;
+    margin-left: 120px !important;
+    height: 20vh;
+    width: 80vw;
+    background-color: #f8f8f8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;    
+  }
+  
+  
+  .log_images_with_t {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin-left: 50px;  
+  }
+  
+  
+  .buy{
+    margin-top: 25px;
+  }
+
+  .log_images_with_t img{
+    width:20px;
+    height: 20px;
+  }

@@ -1,0 +1,30 @@
+.div-Commitemnet-to-Accessiblity-in-Footer{
+     width: 99%;
+     height: 40vh;
+     background-color: white;
+     margin-left: 6px;
+     border-radius: 6px;
+     padding: 30px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.div-of-div-comomites-a h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: rgb(79, 35, 141);
+    margin-bottom: 20px;
+    
+}
+
+.div-of-div-comomites-a span{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: rgb(53, 53, 53);
+    
+}

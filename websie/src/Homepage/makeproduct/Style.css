@@ -1,0 +1,452 @@
+/*********************************************** Make Jewellery css in home page *************************/
+/*********************************************** Make Jewellery css in home page *************************/
+.make_your {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(52, 52, 52);
+  margin-top: 9rem;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.make_your span {
+  margin-left: 60px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.product {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.jewellery1 {
+  display: flex;
+  flex-direction: column;
+  height: 386px;
+  width: 386px;
+}
+
+.jewellery2 {
+  display: flex;
+  flex-direction: column;
+  height: 386px;
+  width: 386px;
+}
+
+.jewellery3 {
+  display: flex;
+  flex-direction: column;
+  height: 386px;
+  width: 386px;
+}
+
+.jew {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.jew span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(52, 52, 52);
+}
+
+.jewellery1 img {
+  height: 386px;
+  width: 386px;
+  text-align: left;
+}
+.jewellery2 img {
+  height: 386px;
+  width: 386px;
+  text-align: left;
+}
+
+.jewellery3 img {
+  height: 386px;
+  width: 386px;
+  text-align: left;
+}
+
+.jewellery1 {
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.jewellery1 img:hover {
+  transform: scale(1.1);
+}
+
+.jewellery1:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+.jewellery1:hover:before {
+  background-color: rgba(255, 255, 255, 0.1);
+  right: 50.5%;
+  left: 50.5%;
+}
+
+.jewellery1:hover:after {
+  background-color: rgba(255, 255, 255, 0.1);
+  top: 50.5%;
+  bottom: 50.5%;
+}
+
+.jewellery1:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+.jewellery2 {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  height: 386px;
+  width: 386px;
+}
+
+.jewellery2 img:hover {
+  transform: scale(1.1);
+}
+
+.jewellery2:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+.jewellery2:hover:before {
+  background-color: rgba(255, 255, 255, 0.1);
+  right: 50.5%;
+  left: 50.5%;
+}
+
+.jewellery2:hover:after {
+  background-color: rgba(255, 255, 255, 0.1);
+  top: 50.5%;
+  bottom: 50.5%;
+}
+
+.jewellery2:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+.jewellery3 {
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+
+.jewellery3 img:hover {
+  transform: scale(1.1);
+}
+
+.jewellery3:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+.jewellery3:hover:before {
+  background-color: rgba(255, 255, 255, 0.1);
+  right: 50.5%;
+  left: 50.5%;
+}
+
+.jewellery3:hover:after {
+  background-color: rgba(255, 255, 255, 0.1);
+  top: 50.5%;
+  bottom: 50.5%;
+}
+
+.jewellery3:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+/*********************************************** Natural Diamond css in home page *************************/
+/*********************************************** Natural Diamond css in home page *************************/
+
+.natural_gemstone_img {
+  height: 43vh;
+  width: 89.8vw;
+  margin-top: 70px;
+  object-fit: cover;
+  margin-left: 60px;
+}
+
+.Largest {
+  margin-top: -180px;
+  margin-left: 42rem;
+}
+
+.dimaond_ring_img {
+  width: 89.8vw;
+  height: 49vh;
+  object-fit: cover;
+  margin-left: 60px;
+  margin-top: 80px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+.make_your_one {
+  position: absolute;
+  right: 0;
+  margin-top: -18%;
+  text-align: left;
+  display: flex;
+  margin-right: 10rem;
+  flex-direction: column;
+}
+
+.diamond_jellery_text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(52, 52, 52);
+}
+
+.combine_diamond {
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(53, 53, 53);
+}
+
+.input_boxes {
+  display: flex;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+.input_boxes input:hover {
+  background-color: black;
+  color: white;
+}
+
+.input_boxes input {
+  height: 40px;
+  width: 13rem;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*********************************************** Find Jewellery css in home page *************************/
+/*********************************************** Find Jewellery css in home page *************************/
+
+
+.Fine_jewellery {
+  margin-top: 65px !important;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(53, 53, 53);
+}
+
+.product_of_ring {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px !important;
+  column-gap: 25px;
+}
+
+.blue_ring {
+  display: flex;
+  flex-direction: column;
+  height: 286px;
+  width: 286px;
+  overflow: hidden;
+}
+
+.bulu_just {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.blue_ring img {
+  height: 286px;
+  width: 286px;
+  object-fit: cover;
+}
+
+.blue_ring {
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+
+.blue_ring img:hover {
+  transform: scale(1.1);
+}
+
+.blue_ring:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+.blue_ring:hover:before {
+  background-color: rgba(255, 255, 255, 0.1);
+  right: 50.5%;
+  left: 50.5%;
+}
+
+.blue_ring:hover:after {
+  background-color: rgba(255, 255, 255, 0.1);
+  top: 50.5%;
+  bottom: 50.5%;
+}
+
+.blue_ring:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+
+
+/*********************************************** Jion the Community css in home page *************************/
+/*********************************************** JIon the community css in home page *************************/
+
+
+
+
+.jion_the_community_3{
+    height: 30vh;
+    width: 80vw;
+    background-color: #F5F5F5;
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+    align-items: center;
+    padding: 60px;
+    text-align: left;
+    margin-left: 120px;
+
+}
+
+
+.Subscribe_to{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    color:  rgb(53, 53, 53);
+    line-height: 15px;
+}
+
+.jion_the{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    color:  rgb(52, 52, 52);
+    line-height: 26px;
+
+}
+
+.address_email{
+    height: 44px;
+    width: 20rem;
+    padding-left: 20px;
+    margin-left: 70px; 
+    position: relative;
+    color: rgb(52, 52, 52);  
+}
+
+
+.address_email:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.special_offer_free{
+    margin-left: 50px;
+}
+
+.jion_to{
+    left: 0px;
+    right: 0px;
+    margin-left: -130px;
+    z-index: 999;
+    padding-left: 20px;
+    border-left: 2px solid rgb(52, 52, 52);
+
+}

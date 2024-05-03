@@ -1,0 +1,27 @@
+
+.spphire-image {
+    display: flex;
+    justify-content: center;  
+    gap: 50px;
+    margin-top: 50px;
+  }
+  
+  .imge-spphire-new img {
+    width: 78px;
+    height: 78px;
+  }
+  
+  .imge-spphire-new {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imge-spphire-new:hover img {
+    opacity: 0.9;
+  }
+  
+  .imagebord {
+    border-radius: 0px !important;
+    margin-top: 30px;
+  }

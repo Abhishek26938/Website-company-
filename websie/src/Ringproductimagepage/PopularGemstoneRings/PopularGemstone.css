@@ -1,0 +1,41 @@
+.shop-Populrgem{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.shop-Populrgem h2{
+font-size: 24px;
+font-family: Montserrat, sans-serif;
+font-weight: 600;
+line-height: 26px;
+color: #481989;
+text-transform: capitalize;
+letter-spacing: 1px;
+}
+
+
+.shop-Populrgem p {
+font-size: 14px;
+font-family: Montserrat, sans-serif;
+font-weight: 500;
+line-height: 20px;
+color: rgb(74, 74, 74);
+text-transform: capitalize;
+letter-spacing: 1px;
+}
+
+.ring-cade-design img{
+    width:280px ;
+    height: 192px;
+}   
+
+.ring-cad-design-new{
+    display: flex;
+    min-width: 1200px;
+    overflow: auto;
+    gap: 30px;
+    margin: 10px 40px;
+
+}

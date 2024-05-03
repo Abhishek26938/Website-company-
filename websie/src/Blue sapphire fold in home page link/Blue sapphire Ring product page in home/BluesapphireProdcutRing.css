@@ -1,0 +1,193 @@
+.image-of-blue-saphire-ring img {
+  width: 200px;
+  height: 200px;
+  margin-top: -30px;
+}
+
+.new-div-of-shaaphire-now {
+  width: 18.5rem;
+  height: 58vh;
+  background-color: white;
+  display: flex;
+  border-radius: 8px;
+  gap: 8px;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  margin-top: 20px;
+}
+
+.item-of-className-in-product {
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: rgb(24, 24, 24);
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+
+.blue-sapphire-image-item-code {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.item-of-product-code-name {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: rgb(70, 70, 70);
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+
+.div-of-blue-sapphire-product-prince-range {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  color: #481989;
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+
+.div-oftradntonal-ring {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  color: rgb(70, 70, 70);
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: center;
+  display: flex;
+}
+
+#heart-icon-in-blue {
+  margin-top: 20px;
+  margin-left: 220px;
+  color: rgb(70, 70, 70);
+}
+
+.blue-sapphier-ring-1 {
+  width: 60px;
+  height: 60px;
+  border: 1px solid rgb(127, 127, 127);
+  padding: 3px;
+  border-radius: 3px;
+  object-fit: fill;
+  margin-right: 6px;
+}
+.blue-sapphier-ring-2 {
+  width: 60px;
+  height: 60px;
+  border: 1px solid rgb(127, 127, 127);
+  padding: 3px;
+  border-radius: 3px;
+  object-fit: fill;
+  margin-right: 6px;
+}
+.blue-sapphier-ring-3 {
+  width: 50px;
+  height: 50px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid rgb(127, 127, 127);
+  padding: 3px;
+  border-radius: 3px;
+  object-fit: fill;
+  margin-right: 6px;
+}
+
+.blue-sapphier-ring-4 {
+  width: 50px;
+  height: 50px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid rgb(127, 127, 127);
+  padding: 3px;
+  border-radius: 3px;
+  object-fit: fill;
+  
+}
+
+.simple-of-blue-spphire-ring {
+  display: none;
+  gap: 10px;
+  justify-content: space-between;
+ 
+}
+
+.blue-sapphier-ring-1:hover,
+.blue-sapphier-ring-2:hover,
+.blue-sapphier-ring-3:hover,
+.blue-sapphier-ring-4:hover {
+  border-color: #481989;
+}
+
+.view-product-ring-blue-sapphire {
+  width: 18.4rem;
+  height: 7vh;
+  margin-top: 2px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: none;
+  background-color: #481989;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: center;
+  display: none;
+}
+
+.new-div-of-shaaphire-now:hover .simple-of-blue-spphire-ring {
+  display: block;
+}
+
+.new-div-of-shaaphire-now:hover .view-product-ring-blue-sapphire {
+  display: block;
+}
+.new-div-of-shaaphire-now:hover .div-oftradntonal-ring {
+  display: none;
+}
+.new-div-of-shaaphire-now:hover {
+  border-color: rgb(127, 127, 127);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.sapphire-ring-product-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  margin: 0px 25px;
+}
+
+.image-of-prodcut-ring-page{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+
+.image-of-prodcut-ring-page1{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.classsice-sapphire-Jewellery-that{
+  margin: 30px 20px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  color: rgb(70, 70, 70);
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: left;
+  
+}

@@ -1,0 +1,136 @@
+/*********************************************** Ready Ship Jewellery css in home page *************************/
+/*********************************************** Ready Ship Jewellery css in home page *************************/
+.ready__ship {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 70px;
+  margin-right: 90px;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.ready__ship h1 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 26px;
+  color: rgb(53, 53, 53);
+}
+
+.tegas_ring_etc {
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.tegas_ring_etc button {
+  color: rgb(52, 52, 52);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  line-height: 26px;
+  height: 40px;
+  width: 80px;
+  background-color: white;
+  border: none;
+  text-transform: capitalize;
+}
+
+.ring_grop {
+  display: flex;
+  gap: 18px;
+  margin-left: 70px;
+  margin-right: 60px;
+  min-width: 1200px;
+  width: 89vw;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.ring_grop1 {
+  display: none;
+  gap: 18px;
+  margin-left: 70px;
+  margin-right: 60px;
+  min-width: 1200px;
+  width: 89vw;
+  overflow: hidden;
+}
+
+.ring_grop2 {
+  display: none;
+  gap: 18px;
+  margin-left: 70px;
+  margin-right: 60px;
+  min-width: 1200px;
+  width: 89vw;
+  overflow: hidden;
+}
+
+.container2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.ring_imgaes {
+  transition: all ease 0.3ms;
+}
+
+.ring_imgaes img {
+  width: 290px;
+  height: 290px;
+}
+
+.container1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: -60px;
+  text-align: left;
+}
+
+.up-down1 {
+    animation-name: upDownAnimation;
+    animation-delay: 0.9s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:backwards;
+    animation-direction: normal;
+
+    animation-duration: 6s;
+    animation-delay: 0.3s;
+    display: flex;
+    gap: 18px;
+  }
+  
+  @keyframes upDownAnimation {
+    0% {
+      transform: translateX(-0%);
+    }
+    20% {
+      transform: translateX(-20%);
+    }
+    30% {
+      transform: translateX(-30%);
+    }
+    40% {
+      transform: translateX(-40%);
+    }
+     50% {
+      transform: translateX(-50%);
+    }
+   /* 60% {
+        transform: translateX(-60%);
+      } */
+  }
+
+
+.container3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: -60px;
+  text-align: left;
+}

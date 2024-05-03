@@ -1,0 +1,249 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/*********************************************** Navbar css in home page *************************/
+/*********************************************** Navbar css in home page *************************/
+
+.divblue {
+  background-color: #481989;
+  height: 4.5vh;
+  width: 100%;
+}
+
+.mein {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 30px;
+  align-items: center;
+}
+
+.icon_teen {
+  display: flex;
+  gap: 20px;
+}
+
+.icon_four a {
+  color: black;
+}
+
+.icon_four {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+  color: black;
+}
+
+.company_log  img{
+  height: 80px;
+  width: 90px;
+  cursor: pointer;
+}
+
+.menus_navber {
+  display: flex;
+  margin-top: -3vh;
+  gap: 27px;
+}
+
+.menus ul {
+  display: flex;
+  gap: 20px;
+  margin-left: 10vw;
+  list-style-type: none;
+  position: relative;
+}
+
+.menus ul li {
+  border: 2px solid white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+}
+
+.menus ul li:hover {
+  background-color: #491a89;
+  color: white;
+}
+
+
+ul li .dropdown li a {
+  color: black !important;
+}
+ul li .dropdown li:hover a {
+  color:#ffffff !important;
+}
+
+
+  .menus ul li:hover a{
+    color: white;
+   
+  }
+
+  .menus ul li:hover li a{
+        color:rgb(31, 31, 31);
+  }
+
+.menus ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: rgb(31, 31, 31);
+}
+li .dropdown {
+  position: absolute;
+  margin-left: -2px;
+  margin-top: 35px;
+  top: 0;
+  height: 380px;
+  color: rgb(31, 31, 31);
+  background-color:white;
+  border-radius: 10px;
+  min-height: 240px;
+  overflow: auto;
+  width: 250px;
+  text-align: left !important;
+  display: none;
+  z-index: 9999;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  transition: all ease 0.3s;
+}
+
+ li.dropdown {
+  padding-top: 10px;
+}
+ ul.dropdown li {
+  border-bottom: 2px solid rgb(94, 94, 94);
+  text-align: left;
+color: rgb(31, 31, 31) !important;
+ 
+  
+}
+
+.menus ul li li a{
+    color: black;
+    background-color: none !important;
+ }
+
+ul li.dropdownfull {
+  color: black;
+}
+
+.menus ul li:hover ul {
+  display: block;
+}
+
+.menus ul li:hover .dropdownfull {
+  display: flex;
+}
+
+.dropdownfull {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 4px;
+  background-color: white;
+  width: 141%;
+  margin-left: -140px;
+  height: 40vh;
+  z-index: 999;
+  color: black;
+}
+
+.dropdownfull {
+  transition: all ease 0.3s;
+  gap: 20px;
+  padding-left: 50px;
+  padding-top: 10px;
+  display: none;
+  border-top: 1px solid rgb(90, 90, 90);
+}
+
+.dropdownfull .gemstone_spphire {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.imge_spphire img {
+  width: 15px;
+  height: 15px;
+  object-fit: cover;
+}
+
+.gemstone_imge {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  padding-top: 30px;
+  padding-right: 50px;
+  mix-blend-mode: multiply;
+}
+
+.offer_button {
+  height: 35px;
+  width: 75px;
+  border-radius: 5px;
+  border: none;
+  background-color: #481989;
+  position: relative;
+}
+
+.offer_button:hover .dropdown2 {
+  display: block;
+}
+
+.dropdown2 {
+  background-color: white;
+  color: rgb(51, 51, 51);
+  position: absolute;
+  width: 200px;
+  display: none;
+  flex-direction: column;
+  height: 80px;
+  margin-top: 7px;
+  margin-left: -40px;
+  align-self: center;
+  text-align: center;
+  gap: 20px;
+  z-index: 911;
+  padding-top: 10px;
+}
+
+.dropdown2 span {
+  border-bottom: 2px solid black;
+  padding-bottom: 8px;
+}
+
+.dropdown2 p {
+  margin-top: 13px;
+}
+
+.offer_button {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+
